@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, darkblue,purple);
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3rem;
+    padding: 2rem 3rem;
+}
+
+h3{
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(4, 5, 88);
+}
+
+.container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btncon {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1px;
+    margin: 0 1rem;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    font-weight: 200px;
+    font-size: larger;
+    color: black;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+.hidden {
+    display: none;
+}
